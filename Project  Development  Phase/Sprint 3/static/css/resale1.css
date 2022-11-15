@@ -1,0 +1,26 @@
+.body1{
+	background-image: url("resalepic1.jpg");
+	background-repeat:no-repeat;
+	background-attachment:fixed; 
+	background-size: cover;
+}
+#rcorners1 {
+  border-radius: 16px 50px;
+  background: transparent;
+  border-color: #A9A9A9;
+  padding: 13px; 
+  width: 160px;
+  height: 30px;  
+}
+.button5 {
+    border-radius: 50%;
+    border-color: #A9A9A9;
+    width:150px;
+    font-size: 17px;
+}
+.radion {
+	border:2px solid black;
+	border-color:black;
+	height:17px;
+	width:17px;
+}
