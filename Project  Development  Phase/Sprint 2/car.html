@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Car Resale Value Predicting Application</title>
+    <link rel="icon" type="image/x-icon" href="../static/Images/favicon.ico">
+    <link rel="stylesheet" href="../static/css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <style>
+h1 {
+  font-size: 65px;
+  top:40px
+}
+p {
+  font-size: 20px;
+}
+.button {
+  display: inline-block;
+  border-radius: 3px;
+  background-color: red;
+  border: none;
+  color: white;
+  text-align: center;
+  font-size: 20px;
+  padding: 20px;
+  width: 160px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 3px;
+}
+.button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button:hover span {
+  padding-right: 20px;
+}
+
+.button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+body {
+  background-image: url('renault 1.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  
+}
+</style>
+  </head>
+  <center>
+  <body>
+    <section class="header">
+      <nav>
+         
+  
+      </nav>
+        <div class="text-box">
+          <center><h1 style="color:white;">Car resale value Predictor</h1><center>
+          <center><p style="color:White;">Get fair and unbiased price for your used car.</p><center>
+          <button class="button" style="vertical-align:middle"><span>Check Price </span></button>
+        </div>
+    </section>
+    
+  </body>
+ </center>
+</html>
